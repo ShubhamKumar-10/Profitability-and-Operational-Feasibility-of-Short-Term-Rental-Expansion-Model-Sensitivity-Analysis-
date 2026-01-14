@@ -20,11 +20,11 @@ Which property types and locations should be prioritized?
 
 ## 3. Data & Tools Used
 
-Data Extraction	:                     SQL
-Financial Modeling:	                 Microsoft Excel
-Sensitivity Analysis:	               Excel + Tableau
-Visualization:	                       Tableau Public
-Reporting:	                           Word (White Paper), PowerPoint
+-Data Extraction	:                     SQL 
+-Financial Modeling:	                 Microsoft Excel
+-Sensitivity Analysis:	               Excel + Tableau
+-Visualization:	                       Tableau Public
+-Reporting:	                           Word (White Paper), PowerPoint
 
 ## 4. Financial Model Overview
 
