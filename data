@@ -6,6 +6,7 @@ This folder contains all data assets used in the project.
 - SQL queries used for data extraction
 - Cleaned and transformed Excel files used for financial modeling
 - Assumptions 
+- Tableau public Dashboard link
 
 ## Notes
 Data is based on historical short-term rental performance and was used to build cash flow and profitability models.
@@ -83,4 +84,10 @@ Ignoring the impact of any:
 
 ·       special events during the year that might affect the rentals in one specific location.
 
-·       loss in rent during the time interval when properties are being converted to short-term rental properties,
+·       loss in rent during the time interval when properties are being converted to short-term rental properties
+
+
+
+
+## Link for tableau dashboard
+https://public.tableau.com/views/SensitivityAnalysisofShort-TermRentalConversionProfitability/SensitivityAnalysisofShort-TermRentalConversionProfitability?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
