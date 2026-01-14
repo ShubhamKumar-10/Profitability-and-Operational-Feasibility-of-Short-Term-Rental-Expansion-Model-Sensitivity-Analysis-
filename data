@@ -1,0 +1,10 @@
+# Data
+
+This folder contains all data assets used in the project.
+
+## Contents
+- SQL queries used for data extraction
+- Cleaned and transformed Excel files used for financial modeling
+
+## Notes
+Data is based on historical short-term rental performance and was used to build cash flow and profitability models.
