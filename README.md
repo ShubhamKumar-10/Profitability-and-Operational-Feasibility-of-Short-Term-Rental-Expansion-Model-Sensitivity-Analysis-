@@ -58,7 +58,20 @@ Utilities and service costs
 
 Each parameter was tested across realistic minimum and maximum ranges to identify risk exposure and upside potential.
 
-## 6. Tableau Dashboard
+## 6. Action
+Extracted and integrated data for 244 client-owned properties with ~84,000 rows of historical short-term rental data (2 years) using SQL joins on location and property type
+
+Computed property-level occupancy rates and comparable nightly rents by matching Watershed properties with short-term rentals in the same city and ZIP code
+
+Built a revenue optimization model by applying linear regression on normalized rent bands (10th–90th percentile) to estimate the rent–occupancy tradeoff for each property
+
+Forecasted property-specific optimal nightly rent and occupancy to maximize annual short-term rental revenue
+
+Developed a financial model in Excel to calculate yearly cash flows and profits for both the conversion year and post-conversion year, incorporating capex, operating costs, platform fees, and regulatory buffers
+
+
+
+## 7. Tableau Dashboard
 
 The interactive dashboard allows decision makers to:
 
@@ -73,17 +86,17 @@ Identify top-performing property types
 ## Dashboard Link:
 https://public.tableau.com/views/SensitivityAnalysisofShort-TermRentalConversionProfitability/SensitivityAnalysisofShort-TermRentalConversionProfitability?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-## 7. Key Insights
+## 8. Key Insights
 
-Profitability is most sensitive to rental duration and upfront conversion cost
+Identified 44 of 244 properties exceeding a $6,000 annual profit uplift threshold versus long-term leasing; eliminated cash flow negative properties through multi year cash flow screening
 
-Houses in high demand urban clusters consistently outperform apartments (2 Bedroom houses outperform in top performing cities- Texas, Florida, California)
+Performed scenario and sensitivity analysis in Tableau, revealing transaction fees and average stay length as the most profit-sensitive drivers
 
-Profitability drops sharply beyond a certain threshold value
+Prioritized 20 properties for phased conversion under a $500K capital constraint, focusing on 2-bedroom houses in coastal markets (TX, FL, CA)
 
-Geographic clustering enables phased conversion strategies
+Delivered a recommendation increasing projected profits from $0.77M (long-term leases) to $1.46M (short-term rentals) while minimizing cash flow risk
 
-## 8. Final Recommendation
+## 9. Final Recommendation
 
 Given the $500,000 capital constraint, Watershed should:
 
@@ -93,6 +106,6 @@ Prioritize houses over apartments
 
 Focus on high-performing geographic clusters near coast- Florida, Texas, California
 
-Expand in stages based on realized cash flow
+Expand in stages based on realized cash flow increasing projected profits from $0.77M (long-term leases) to $1.46M (short-term rentals) while minimizing cash flow risk
 
 This approach maximizes profit while minimizing financial risk.
